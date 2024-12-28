@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 60px;
+}
+
+.leftContainer {
+  margin: 164px 0 0 120px;
+  width: 50%;
+  position: relative;
+  z-index: 3;
+}
+
+.leftContainer h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #315281;
+}
+
+.paraGraph {
+  max-width: 800px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.leftContainer h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.customButton {
+  font-size: 15px;
+  background-color: #b39449;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.customButton a {
+  color: white;
+  text-decoration: none;
+}
+
+.customButton:hover {
+  background-color: #315281;
+  transition: 0.5s;
+}
+
+.rightContainer {
+  position: relative;
+  margin: 164px 30px 0 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.squareBox {
+  border: 8px solid #315281;
+  width: 360px;
+  height: 360px;
+}
+
+.spnLaw {
+  position: absolute;
+  width: 510px;
+  height: 330px;
+}
+
+/* Media Query for Phone Size */
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  .leftContainer {
+    margin: 0;
+    width: 90%;
+  }
+
+  .leftContainer br {
+    display: none;
+  }
+
+  .leftContainer h1 {
+    margin: 5px 0;
+    font-size: 32px;
+  }
+
+  .leftContainer h3 {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .customButton {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .rightContainer {
+    margin: 117px 20px 20px;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .squareBox {
+    width: 250px;
+    height: 250px;
+  }
+
+  .spnLaw {
+    width: 350px;
+    height: 230px;
+  }
+}

@@ -1,0 +1,17 @@
+#progress {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  transform: rotate(-90deg);
+}
+
+#progress .indicator {
+  stroke: var(--accent);
+}
+
+.lists_main {
+  overflow-x: scroll;
+  padding: 20px 0;
+  flex: 0 0 600px;
+  margin: 0 auto;
+}

@@ -1,0 +1,126 @@
+.ot-container {
+    background-color: #ffffff; 
+    width: 100%;
+    padding: 5% 0;
+  }
+  
+  .ot-content-container {
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .ot-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #315281;
+  }
+  
+  .ot-header h3 {
+    margin: 0 15%;
+    width: 70%;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  
+  .ot-header h1 {
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .ot-header h2 {
+    color: #b39449;
+    font-weight: 600;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .ot-team-member-container {
+    background-color: #eef2f6;
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 40px;
+    padding: 30px;
+  }
+  
+  .ot-team-member-name-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ot-team-member-name-box:hover {
+    transform: scale(1.05); /* Slightly expand on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .ot-team-member-details img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .ot-team-member-details h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .ot-team-member-details p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .ot-header h1 {
+      font-size: 32px;
+    }
+  
+    .ot-header h3 {
+      margin: 0 5%;
+      width: 90%;
+    }
+  
+    .ot-team-member-container {
+      width: 95%;
+      gap: 20px;
+    }
+  
+    .ot-team-member-name-box {
+      width: 150px;
+      padding: 15px;
+    }
+  
+    .ot-team-member-details img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .ot-team-member-details h3 {
+      font-size: 16px;
+    }
+  
+    .ot-team-member-details p {
+      font-size: 12px;
+    }
+  }
+  

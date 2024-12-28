@@ -1,0 +1,115 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.show > div {
+  width: 24rem;
+  height: 200px;
+}
+
+/* @-webkit-keyframes trans {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+  
+  @keyframes trans {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  } */
+
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.not-show {
+  display: none;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  width: 20%;
+  background-color: transparent;
+  transform: translateY(-50%);
+  opacity: 20%;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  width: 20%;
+  background-color: transparent;
+  transform: translateY(-50%);
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  font-size: 20px;
+  height: 12rem;
+}
+
+.page {
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+  opacity: 1;
+}
+
+.slide {
+  position: absolute;
+  left: 10%;
+  width: 24rem;
+  height: 200px;
+  margin-top: -75px;
+  padding-top: 0px;
+  z-index: 40;
+  box-shadow: #717171;
+}
+
+.show {
+  position: absolute;
+  width: 24rem;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: fade 2s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .slide {
+    margin: auto;
+    left: 0;
+    width: 18rem;
+    height: 150px;
+    z-index: 3;
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .show {
+    width: 18rem;
+    height: 150px;
+    animation: fade 2s ease-in-out;
+  }
+}

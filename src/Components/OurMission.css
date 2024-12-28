@@ -1,0 +1,158 @@
+.om-container {
+    padding: 3% 5% 5% 5%;
+    background-color: #ffffff;
+  }
+  
+  .om-header {
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #315281;
+    background-color: white;
+  }
+  
+  .om-header h3 {
+    margin: 0 15%;
+    width: 70%;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 15px;
+  }
+  
+  .om-header h1 {
+    margin: 5px;
+    font-size: 50px;
+  }
+  
+  .om-header h2 {
+    color: #b39449;
+    font-weight: 600;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .om-box-container {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .om-box-content {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding: 64px 0;
+    background-color: #eef2f6;
+  }
+  
+  .om-box {
+    position: relative;
+    width: 250px;
+    height: 270px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .om-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .om-box img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .om-box h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b39449;
+    margin-bottom: 0;
+  }
+  
+  .om-box p {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    hyphens: auto;
+  }
+  
+  .om-box h3 {
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .om-box a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    color: #315281;
+  }
+  
+  .om-box a:hover {
+    text-decoration: underline;
+    color: #b39449;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .om-container {
+      padding: 6% 6%;
+    }
+  
+    .om-header {
+      height: auto;
+      padding-bottom: 20px;
+    }
+  
+    .om-header h3 {
+      margin: 0 10%;
+      width: 80%;
+    }
+  
+    .om-header h1 {
+      font-size: 32px;
+    }
+  
+    .om-box-container {
+      height: auto;
+    }
+  
+    .om-box-content {
+      padding: 30px 0;
+      gap: 20px;
+    }
+  
+    .om-box {
+      width: 200px;
+      height: auto;
+    }
+  
+    .om-box img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .om-box h2 {
+      font-size: 18px;
+    }
+  
+    .om-box p {
+      font-size: 14px;
+    }
+  
+    .om-box h3 {
+      position: relative;
+      bottom: 15px;
+    }
+  
+    .om-box a {
+      font-size: 14px;
+    }
+  }
+  

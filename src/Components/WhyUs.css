@@ -1,0 +1,169 @@
+.box {
+  background-color: #eef2f6;
+  display: flex;
+}
+
+.leftBox {
+  position: relative;
+  width: 40%;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftBox h1 {
+  margin: 20px 0 0 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #315281;
+}
+
+.leftBox h2 {
+  margin: 0 0 34px 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #315281;
+}
+
+.rectContainer {
+  margin-left: 200px;
+  position: relative;
+  border: 8px solid #315281;
+  width: 370px;
+  height: 383px;
+}
+
+.WhyChooseImg {
+  margin-left: 123px;
+  position: absolute;
+  margin-top: 195px;
+  width: 540px;
+  height: 340px;
+}
+
+.rightBox {
+  position: relative;
+  width: 60%;
+  height: 670px;
+}
+
+.WhyChooseBorder {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+  width: 700px;
+  height: 534px;
+  border: 8px solid #315281;
+}
+
+.WhyChooseBox {
+  position: relative;
+  margin-top: 106px;
+  background-color: #ffffff;
+  width: 780px;
+  height: 480px;
+  z-index: 1;
+}
+
+.WhyUsparagraph h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.WhyUsparagraph {
+  padding: 80px 65px 65px 65px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.WhyUsButton {
+  font-size: 15px;
+  background-color: #b39449;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WhyUsButton a {
+  color: white;
+  text-decoration: none;
+}
+
+.WhyUsButton:hover {
+  background-color: #315281;
+  transition: 0.5s;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  .box {
+      flex-direction: column;
+  }
+
+  .leftBox {
+      width: 100%;
+      height: auto;
+  }
+
+  .leftBox h1 {
+      margin: 20px 0 0 20px;
+      font-size: 36px;
+  }
+
+  .leftBox h2 {
+      margin: 0 0 24px 20px;
+      font-size: 24px;
+  }
+
+  .rectContainer {
+      margin-left: 72px;
+      width: 270px;
+      height: 270px;
+  }
+
+  .WhyChooseImg {
+      margin-left: 34px;
+      margin-top: 149px;
+      width: 360px;
+      height: 240px;
+  }
+
+  .rightBox {
+      width: 100%;
+      height: 62vh;
+  }
+
+  .WhyChooseBorder {
+      margin: 50px 35px 25px 35px;
+      width: 80%;
+      height: 500px;
+  }
+
+  .WhyChooseBox {
+      margin-top: 68px;
+      width: 90%;
+      margin-left: 20px;
+      height: 50vh;
+  }
+
+  .WhyUsparagraph {
+      padding: 38px;
+      text-align: justify;
+      line-height: 1;
+  }
+
+  .WhyUsparagraph h3 {
+      font-size: 18px;
+  }
+
+  .WhyUsButton {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+}
