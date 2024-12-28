@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# SPN-Laws
+The SPN Laws website is a web application designed to provide potential clients with information about the law firm and its services. It's built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js, ensuring a modern and efficient platform.  LINK https://668247bd82106bef79b9bba6--polite-lollipop-37415c.netlify.app/
+>>>>>>> 107b6a128773d4237d20308775be2988c72b698e
