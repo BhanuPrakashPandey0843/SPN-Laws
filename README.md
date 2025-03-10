@@ -1,75 +1,81 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# SPN Laws
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+SPN Laws is a modern and professional law firm website built using the **MERN stack** with **Tailwind CSS** for sleek and responsive UI. The platform provides users with essential legal services, informative content, and seamless communication via **Nodemailer** for email inquiries.
 
-## Available Scripts
+### 🚀 Features
+- **User-friendly Interface** – Clean and professional UI built with Tailwind CSS.
+- **Legal Services Showcase** – Presenting law firm expertise effectively.
+- **Contact & Inquiry Form** – Powered by Nodemailer for direct communication.
+- **Secure Authentication** – Sign up & login system with robust security.
+- **Fully Responsive** – Optimized for all devices.
+- **Fast & Scalable** – Built with MongoDB, Express, React, and Node.js.
 
-In the project directory, you can run:
+## 🌐 Live Demo
+[SPN Laws (Test Link)](https://668247bd82106bef79b9bba6--polite-lollipop-37415c.netlify.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Installation & Setup
+Follow these steps to set up and run the project locally.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📌 Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [MongoDB](https://www.mongodb.com/) (if running locally)
+- [Git](https://git-scm.com/)
 
-### `npm test`
+### 🔧 Backend Setup (Express + MongoDB)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/spn-laws.git
+   cd spn-laws
+   ```
+2. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up environment variables (`.env` file):
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+   SMTP_HOST=your_smtp_host
+   SMTP_PORT=your_smtp_port
+   SMTP_USER=your_email
+   SMTP_PASS=your_password
+   ```
+5. Start the backend server:
+   ```bash
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎨 Frontend Setup (React + Tailwind CSS)
+1. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+Your frontend should now be running at `http://localhost:3000` 🚀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤝 Contributing
+We welcome contributions! Feel free to submit pull requests or report issues.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📜 License
+This project is licensed under the **MIT License**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+💼 **SPN Laws – Empowering Legal Excellence**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# SPN-Laws
-The SPN Laws website is a web application designed to provide potential clients with information about the law firm and its services. It's built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js, ensuring a modern and efficient platform.  LINK https://668247bd82106bef79b9bba6--polite-lollipop-37415c.netlify.app/
->>>>>>> 107b6a128773d4237d20308775be2988c72b698e
