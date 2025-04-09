@@ -28,7 +28,7 @@ Ensure you have the following installed:
 ### 🔧 Backend Setup (Express + MongoDB)
 1. Clone the repository:
    ```bash
-   https://github.com/BhanuPrakashPandey0843/SPN-Laws.git
+   git clone https://github.com/BhanuPrakashPandey0843/SPN-Laws.git
    cd spn-laws
    ```
 2. Navigate to the backend folder:
